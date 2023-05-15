@@ -1,0 +1,5 @@
+C:\Users\Juli\Desktop\GRANJITA\CULFARM\x64\Debug\CULFARM.vcxproj.AssemblyReference.cache
+C:\Users\Juli\Desktop\GRANJITA\CULFARM\x64\Debug\CULFARM.vcxproj.SuggestedBindingRedirects.cache
+C:\Users\Juli\Desktop\GRANJITA\CULFARM\x64\Debug\CULFARM.exe
+C:\Users\Juli\Desktop\GRANJITA\CULFARM\x64\Debug\CULFARM.MyForm.resources
+C:\Users\Juli\Desktop\GRANJITA\CULFARM\x64\Debug\CULFARM.vcxproj.GenerateResource.cache
