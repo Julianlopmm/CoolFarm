@@ -1,0 +1,159 @@
+  CULFARM.CaracteristicasArbol.resources - Embedded, ContainedInManifestFile, 
+  CULFARM.Configuracion.resources - Embedded, ContainedInManifestFile, 
+  CULFARM.Mercado.resources - Embedded, ContainedInManifestFile, 
+  CULFARM.MyForm.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly CULFARM, Version=0.0.*, Culture=Todos los idiomas (todos los países): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class SplayTree: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String tipo : Public
+    Nodo raiz : Public
+    System.ComponentModel.BackgroundWorker ThreadSplay : Public
+    Int32 id : Public
+    Int32 x : Public
+    Int32 y : Public
+    Int32 costo : Public
+    Int32 tiempo : Public
+    Int32 tasaCantidad : Public
+    Int32 tasaTiempo : Public
+    Int32 vendidos : Public
+    Int32 perdidos : Public
+    Boolean xd : Public
+    Int32 esperaCrecer : Public
+  Methods:
+    ThreadSplay_DoWork(Object, DoWorkEventArgs): PrivateScope, Public, HideBySig
+    startBackGroundTask(): PrivateScope, Public, HideBySig
+    rotacionZigZig(Nodo): PrivateScope, Public, HideBySig
+    rotacionZigZag(Nodo): PrivateScope, Public, HideBySig
+    splay(Nodo, Int32): PrivateScope, Public, HideBySig
+    insertar(Int32): PrivateScope, Public, HideBySig
+    buscar(Int32): PrivateScope, Public, HideBySig
+    contarElementos(Nodo): PrivateScope, Public, HideBySig
+    eliminarArbol(Nodo): PrivateScope, Public, HideBySig
+    eliminarTodosElementos(): PrivateScope, Public, HideBySig
+    eliminarPrimerElemento(): PrivateScope, Public, HideBySig
+Class CULFARM.CaracteristicasArbol: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.Label label1 : Public
+    System.Windows.Forms.Label label2 : Public
+    System.Windows.Forms.Label label3 : Public
+    System.Windows.Forms.Label label4 : Public
+    System.Windows.Forms.Label label5 : Public
+    System.EventHandler botonVenderClickedEvent : Public
+    System.Windows.Forms.Label label7 : Public
+    Int32 xa : Public
+    Int32 ya : Public
+    System.Windows.Forms.Label label6 : Public
+Class CULFARM.Configuracion: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.EventHandler botonBajoTiempoDeCosechaClickedEvent : Public
+    System.EventHandler botonMedioTiempoDeCosechaClickedEvent : Public
+    System.EventHandler botonAltoTiempoDeCosechaClickedEvent : Public
+    System.EventHandler botonBajoPreciosTiendaClickedEvent : Public
+    System.EventHandler botonMedioPreciosTiendaClickedEvent : Public
+    System.EventHandler botonAltoPreciosTiendaClickedEvent : Public
+    System.EventHandler botonBajoTiempoPlagasClickedEvent : Public
+    System.EventHandler botonMedioTiempoPlagasClickedEvent : Public
+    System.EventHandler botonAltoTiempoPlagasClickedEvent : Public
+    System.EventHandler botonBajoProbabilidadPlagasClickedEvent : Public
+    System.EventHandler botonMedioProbabilidadPlagasClickedEvent : Public
+    System.EventHandler botonAltoProbabilidadPlagasClickedEvent : Public
+    System.EventHandler botonAceptarClickedEvent : Public
+    System.EventHandler botonAceptarNombreClickedEvent : Public
+    System.Windows.Forms.TextBox textBoxNombre : Public
+    System.Windows.Forms.Button botonAceptarNombre : Public
+    System.Windows.Forms.Button botonAceptar : Public
+    System.Windows.Forms.Button botonBajoTiempoDeCosecha : Public
+    System.Windows.Forms.Button botonMedioTiempoDeCosecha : Public
+    System.Windows.Forms.Button botonBajoTiempoDeCosechabotonAltoTiempoDeCosecha : Public
+    System.Windows.Forms.Button botonBajoPreciosTienda : Public
+    System.Windows.Forms.Button botonMedioPreciosTienda : Public
+    System.Windows.Forms.Button botonAltoPreciosTienda : Public
+    System.Windows.Forms.Label label2 : Public
+    System.Windows.Forms.Button botonBajoTiempoPlagas : Public
+    System.Windows.Forms.Button botonMedioTiempoPlagas : Public
+    System.Windows.Forms.Button botonAltoTiempoPlagas : Public
+    System.Windows.Forms.Label label3 : Public
+    System.Windows.Forms.Button botonBajoProbabilidadPlagas : Public
+    System.Windows.Forms.Button botonMedioProbabilidadPlagas : Public
+    System.Windows.Forms.Button botonAltoProbabilidadPlagas : Public
+    System.Windows.Forms.Label label4 : Public
+Class CULFARM.Mercado: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.EventHandler botonArbolBinarioClickedEvent : Public
+    System.EventHandler botonHeapClickedEvent : Public
+    System.EventHandler botonAVLClickedEvent : Public
+    System.EventHandler botonSplayClickedEvent : Public
+    System.EventHandler vendeTodosClickedEvent : Public
+    System.EventHandler botonComprarEspantapajarosClickedEvent : Public
+    System.Windows.Forms.Label label1 : Public
+    System.Windows.Forms.Button button2 : Public
+    System.Windows.Forms.Button button3 : Public
+    System.Windows.Forms.Button button4 : Public
+    System.Windows.Forms.Button button5 : Public
+Class CULFARM.top10Ventana: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.TextBox textBoxTop10 : Public
+Class CULFARM.MyForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.Button[,] buttonGrid : Public
+    Int32[,] matriz : Public
+    granjero g : Public
+    Boolean[,] matrizbool : Public
+    Int32 precioxdxd : Public
+    System.String rutaArchivo : Public
+    oveja ovejas : Public
+    cuervo cuervos : Public
+    System.ComponentModel.BackgroundWorker backgroundWorker1 : Public
+    System.Threading.Thread threadOvejasSplay : Public
+    System.Threading.Thread threadCuervos : Public
+    CULFARM.Mercado ventanaSecundaria : Public
+    CULFARM.CaracteristicasArbol ventanaArbol : Public
+    CULFARM.Configuracion ventanaConfiguracion : Public
+    CULFARM.top10Ventana ventanaTop10 : Public
+    System.Windows.Forms.Button button2 : Public
+    System.Windows.Forms.Button button3 : Public
+    System.Windows.Forms.Button button4 : Public
+    System.Windows.Forms.Button button5 : Public
+  Methods:
+    button3_Click(Object, EventArgs): PrivateScope, Public, HideBySig
+    ventanaConfiguracionAccionBotonBajoTiempoDeCosecha(Object, EventArgs): PrivateScope, Public, HideBySig
+    ventanaConfiguracionAccionBotonMedioTiempoDeCosecha(Object, EventArgs): PrivateScope, Public, HideBySig
+    ventanaConfiguracionAccionBotonAltoTiempoDeCosecha(Object, EventArgs): PrivateScope, Public, HideBySig
+    ventanaConfiguracionAccionBotonBajoPrecioTienda(Object, EventArgs): PrivateScope, Public, HideBySig
+    ventanaConfiguracionAccionBotonMedioPrecioTienda(Object, EventArgs): PrivateScope, Public, HideBySig
+    ventanaConfiguracionAccionBotonAltoPrecioTienda(Object, EventArgs): PrivateScope, Public, HideBySig
+    ventanaConfiguracionAccionBotonBajoTiempoPlagas(Object, EventArgs): PrivateScope, Public, HideBySig
+    ventanaConfiguracionAccionBotonMedioTiempoPlagas(Object, EventArgs): PrivateScope, Public, HideBySig
+    ventanaConfiguracionAccionBotonAltoTiempoPlagas(Object, EventArgs): PrivateScope, Public, HideBySig
+    ventanaConfiguracionAccionBotonBajoProbabilidadPlagas(Object, EventArgs): PrivateScope, Public, HideBySig
+    ventanaConfiguracionAccionBotonMedioProbabilidadPlagas(Object, EventArgs): PrivateScope, Public, HideBySig
+    ventanaConfiguracionAccionBotonAltoProbabilidadPlagas(Object, EventArgs): PrivateScope, Public, HideBySig
+    ventanaConfiguracionAceptar(Object, EventArgs): PrivateScope, Public, HideBySig
+    ventanaConfiguracionAceptarNombre(Object, EventArgs): PrivateScope, Public, HideBySig
+    metodoCuervos(): PrivateScope, Public, HideBySig
+    metodoOvejasSplay(): PrivateScope, Public, HideBySig
