@@ -121,18 +121,49 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="arbolSplay.cpp" />
+    <ClCompile Include="avl.cpp" />
+    <ClCompile Include="CaracteristicasArbol.cpp" />
+    <ClCompile Include="Configuracion.cpp" />
+    <ClCompile Include="Espantapajaros.cpp" />
     <ClCompile Include="granjero.cpp" />
     <ClCompile Include="MATRIZ.cpp" />
+    <ClCompile Include="Mercado.cpp" />
     <ClCompile Include="MyForm.cpp" />
+    <ClCompile Include="plaga.cpp" />
+    <ClCompile Include="top10Ventana.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="CaracteristicasArbol.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Configuracion.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Espantapajaros.h" />
     <ClInclude Include="granjero.h" />
     <ClInclude Include="MATRIZ.h" />
+    <ClInclude Include="Mercado.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
     <ClInclude Include="MyForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="plaga.h" />
+    <ClInclude Include="top10Ventana.h">
       <FileType>CppForm</FileType>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="CaracteristicasArbol.resx">
+      <DependentUpon>CaracteristicasArbol.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Configuracion.resx">
+      <DependentUpon>Configuracion.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mercado.resx">
+      <DependentUpon>Mercado.h</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MyForm.resx">
       <DependentUpon>MyForm.h</DependentUpon>
     </EmbeddedResource>

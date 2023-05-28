@@ -1,3 +1,21 @@
 ﻿  MyForm.cpp
-  granjero.obj : se encontró un módulo MSIL; vinculación incremental deshabilitada para MSIL; ejecutando vínculo completo
-  CULFARM.vcxproj -> C:\Users\Juli\Desktop\GRANJITA\CULFARM\x64\Debug\CULFARM.exe
+C:\Users\Juli\Desktop\Proyecto COOLFARM\CULFARM\arbolSplay.cpp(24,15): warning C4677: 'raiz': la signatura de un miembro no privado contiene un tipo privado de ensamblado de 'Nodo'
+C:\Users\Juli\Desktop\Proyecto COOLFARM\CULFARM\arbolSplay.cpp(8,11): message : vea la declaración de 'Nodo'
+C:\Users\Juli\Desktop\Proyecto COOLFARM\CULFARM\arbolSplay.cpp(66,38): warning C4677: 'rotacionZigZig': la signatura de un miembro no privado contiene un tipo privado de ensamblado de 'Nodo'
+C:\Users\Juli\Desktop\Proyecto COOLFARM\CULFARM\arbolSplay.cpp(8,11): message : vea la declaración de 'Nodo'
+C:\Users\Juli\Desktop\Proyecto COOLFARM\CULFARM\arbolSplay.cpp(76,38): warning C4677: 'rotacionZigZag': la signatura de un miembro no privado contiene un tipo privado de ensamblado de 'Nodo'
+C:\Users\Juli\Desktop\Proyecto COOLFARM\CULFARM\arbolSplay.cpp(8,11): message : vea la declaración de 'Nodo'
+C:\Users\Juli\Desktop\Proyecto COOLFARM\CULFARM\arbolSplay.cpp(89,40): warning C4677: 'splay': la signatura de un miembro no privado contiene un tipo privado de ensamblado de 'Nodo'
+C:\Users\Juli\Desktop\Proyecto COOLFARM\CULFARM\arbolSplay.cpp(8,11): message : vea la declaración de 'Nodo'
+C:\Users\Juli\Desktop\Proyecto COOLFARM\CULFARM\arbolSplay.cpp(160,37): warning C4677: 'contarElementos': la signatura de un miembro no privado contiene un tipo privado de ensamblado de 'Nodo'
+C:\Users\Juli\Desktop\Proyecto COOLFARM\CULFARM\arbolSplay.cpp(8,11): message : vea la declaración de 'Nodo'
+C:\Users\Juli\Desktop\Proyecto COOLFARM\CULFARM\arbolSplay.cpp(167,36): warning C4677: 'eliminarArbol': la signatura de un miembro no privado contiene un tipo privado de ensamblado de 'Nodo'
+C:\Users\Juli\Desktop\Proyecto COOLFARM\CULFARM\arbolSplay.cpp(8,11): message : vea la declaración de 'Nodo'
+C:\Users\Juli\Desktop\Proyecto COOLFARM\CULFARM\MyForm.h(32,15): warning C4677: 'g': la signatura de un miembro no privado contiene un tipo privado de ensamblado de 'granjero'
+C:\Users\Juli\Desktop\Proyecto COOLFARM\CULFARM\granjero.h(7,11): message : vea la declaración de 'granjero'
+C:\Users\Juli\Desktop\Proyecto COOLFARM\CULFARM\MyForm.h(36,17): warning C4677: 'ovejas': la signatura de un miembro no privado contiene un tipo privado de ensamblado de 'oveja'
+C:\Users\Juli\Desktop\Proyecto COOLFARM\CULFARM\plaga.h(21,11): message : vea la declaración de 'oveja'
+C:\Users\Juli\Desktop\Proyecto COOLFARM\CULFARM\MyForm.h(37,19): warning C4677: 'cuervos': la signatura de un miembro no privado contiene un tipo privado de ensamblado de 'cuervo'
+C:\Users\Juli\Desktop\Proyecto COOLFARM\CULFARM\plaga.h(4,11): message : vea la declaración de 'cuervo'
+  arbolSplay.obj : se encontró un módulo MSIL; vinculación incremental deshabilitada para MSIL; ejecutando vínculo completo
+  CULFARM.vcxproj -> C:\Users\Juli\Desktop\Proyecto COOLFARM\CULFARM\x64\Debug\CULFARM.exe

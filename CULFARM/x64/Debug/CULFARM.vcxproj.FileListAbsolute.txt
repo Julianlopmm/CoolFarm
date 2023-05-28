@@ -1,5 +1,32 @@
+C:\Users\Home\Desktop\Proyecto COOLFARM\CULFARM\x64\Debug\CULFARM.vcxproj.AssemblyReference.cache
+C:\Users\Home\Desktop\Proyecto COOLFARM\CULFARM\x64\Debug\CULFARM.vcxproj.SuggestedBindingRedirects.cache
+C:\Users\Home\Desktop\Proyecto COOLFARM\CULFARM\x64\Debug\CULFARM.CaracteristicasArbol.resources
+C:\Users\Home\Desktop\Proyecto COOLFARM\CULFARM\x64\Debug\CULFARM.Configuracion.resources
+C:\Users\Home\Desktop\Proyecto COOLFARM\CULFARM\x64\Debug\CULFARM.Mercado.resources
+C:\Users\Home\Desktop\Proyecto COOLFARM\CULFARM\x64\Debug\CULFARM.MyForm.resources
+C:\Users\Home\Desktop\Proyecto COOLFARM\CULFARM\x64\Debug\CULFARM.vcxproj.GenerateResource.cache
+C:\Users\Home\Desktop\Proyecto COOLFARM\CULFARM\x64\Debug\CULFARM.exe
 C:\Users\Juli\Desktop\GRANJITA\CULFARM\x64\Debug\CULFARM.vcxproj.AssemblyReference.cache
 C:\Users\Juli\Desktop\GRANJITA\CULFARM\x64\Debug\CULFARM.vcxproj.SuggestedBindingRedirects.cache
-C:\Users\Juli\Desktop\GRANJITA\CULFARM\x64\Debug\CULFARM.exe
+C:\Users\Juli\Desktop\GRANJITA\CULFARM\x64\Debug\CULFARM.CaracteristicasArbol.resources
+C:\Users\Juli\Desktop\GRANJITA\CULFARM\x64\Debug\CULFARM.Configuracion.resources
+C:\Users\Juli\Desktop\GRANJITA\CULFARM\x64\Debug\CULFARM.Mercado.resources
 C:\Users\Juli\Desktop\GRANJITA\CULFARM\x64\Debug\CULFARM.MyForm.resources
 C:\Users\Juli\Desktop\GRANJITA\CULFARM\x64\Debug\CULFARM.vcxproj.GenerateResource.cache
+C:\Users\Juli\Desktop\GRANJITA\CULFARM\x64\Debug\CULFARM.exe
+C:\Users\Juli\Desktop\pornfarm\x64\Debug\CULFARM.vcxproj.AssemblyReference.cache
+C:\Users\Juli\Desktop\pornfarm\x64\Debug\CULFARM.vcxproj.SuggestedBindingRedirects.cache
+C:\Users\Juli\Desktop\pornfarm\x64\Debug\CULFARM.CaracteristicasArbol.resources
+C:\Users\Juli\Desktop\pornfarm\x64\Debug\CULFARM.Configuracion.resources
+C:\Users\Juli\Desktop\pornfarm\x64\Debug\CULFARM.Mercado.resources
+C:\Users\Juli\Desktop\pornfarm\x64\Debug\CULFARM.MyForm.resources
+C:\Users\Juli\Desktop\pornfarm\x64\Debug\CULFARM.vcxproj.GenerateResource.cache
+C:\Users\Juli\Desktop\pornfarm\x64\Debug\CULFARM.exe
+C:\Users\Juli\Desktop\Proyecto COOLFARM\CULFARM\x64\Debug\CULFARM.vcxproj.AssemblyReference.cache
+C:\Users\Juli\Desktop\Proyecto COOLFARM\CULFARM\x64\Debug\CULFARM.vcxproj.SuggestedBindingRedirects.cache
+C:\Users\Juli\Desktop\Proyecto COOLFARM\CULFARM\x64\Debug\CULFARM.CaracteristicasArbol.resources
+C:\Users\Juli\Desktop\Proyecto COOLFARM\CULFARM\x64\Debug\CULFARM.Configuracion.resources
+C:\Users\Juli\Desktop\Proyecto COOLFARM\CULFARM\x64\Debug\CULFARM.Mercado.resources
+C:\Users\Juli\Desktop\Proyecto COOLFARM\CULFARM\x64\Debug\CULFARM.MyForm.resources
+C:\Users\Juli\Desktop\Proyecto COOLFARM\CULFARM\x64\Debug\CULFARM.vcxproj.GenerateResource.cache
+C:\Users\Juli\Desktop\Proyecto COOLFARM\CULFARM\x64\Debug\CULFARM.exe
